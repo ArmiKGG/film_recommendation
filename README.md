@@ -32,7 +32,7 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 2. Install all the libraries mentioned in the [requirements.txt](https://github.com/ArmiKGG/film_recommendation/blob/main/requirements.txt) file with the command `pip/pip3 install -r requirements.txt`
 3. Get your API key from https://www.themoviedb.org/. (Refer the above section on how to get the API key)
 3. Paste your API in `var` `my_api_key` in **both** the places (lines 15 and 29) of `static/recommend.js` file and hit save.
-4. Open your terminal/command prompt from your project directory and run the file `main.py` by executing the command `python main.py`.
+4. Open your terminal/command prompt from your project directory and run the file `app.py` by executing the command `python app.py`.
 5. Go to your browser and type `http://127.0.0.1:5000/` in the address bar.
 6. That's it.
 
@@ -67,3 +67,5 @@ More about Cosine Similarity : [Understanding the Math behind Cosine Similarity]
 1. `cd user/*/project`
 2. `docker build -t cinema .`
 3. `docker run -d -p 80:80 cinema`
+4. Type localhost in yout address bar.
+5. That's it
