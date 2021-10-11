@@ -12,7 +12,7 @@ The details of the movies(title, genre, runtime, rating, poster, etc) are fetche
 
 # Note
 
-> #### Use this URL - https://the-movie-buff.herokuapp.com/ - in case if you see application error in the above mentioned URL
+> #### LIVE - https://arman-resume-film-recs.herokuapp.com/
 
 ## The Movie Cinema
 
@@ -22,7 +22,7 @@ Link to "Movie Recommendation Service" application: ""
 
 Don't worry if the movie that you are looking for is not auto-suggested. Just type the movie name and click on "enter". You will be good to go eventhough if you made some typo errors.
 
-Source Code: ""
+Source Code: "https://github.com/ArmiKGG/film_recommendation"
 
 ## How to get the API key?
 
@@ -31,7 +31,7 @@ Create an account in https://www.themoviedb.org/, click on the `API` link from t
 ## How to run the project?
 
 1. Clone or download this repository to your local machine.
-2. Install all the libraries mentioned in the [requirements.txt](https://github.com) file with the command `pip/pip3 install -r requirements.txt`
+2. Install all the libraries mentioned in the [requirements.txt](https://github.com/ArmiKGG/film_recommendation/blob/main/requirements.txt) file with the command `pip/pip3 install -r requirements.txt`
 3. Get your API key from https://www.themoviedb.org/. (Refer the above section on how to get the API key)
 3. Paste your API in `var` `my_api_key` in **both** the places (lines 15 and 29) of `static/recommend.js` file and hit save.
 4. Open your terminal/command prompt from your project directory and run the file `main.py` by executing the command `python main.py`.
