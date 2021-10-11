@@ -62,9 +62,4 @@ More about Cosine Similarity : [Understanding the Math behind Cosine Similarity]
 6. [List of movies in 2021](https://en.wikipedia.org/wiki/List_of_American_films_of_2021)
 
 ### Structure of folder `initial_datasets` should be
-├── initial_datasets                 
-   ├── credits.csv          
-   ├── movie_metadata.csv
-   ├── movies_metadata.csv 
-   └── reviews.txt
-
+![image](https://i.ibb.co/99m3nkn/2021-10-11-032947.png)
