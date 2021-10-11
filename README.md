@@ -63,3 +63,9 @@ More about Cosine Similarity : [Understanding the Math behind Cosine Similarity]
 
 ### Structure of folder `initial_datasets` should be
 ![image](https://i.ibb.co/99m3nkn/2021-10-11-032947.png)
+
+
+### Furthermore, you can run this project inside of docker container too
+1. `cd user/*/project`
+2. `docker build -t cinema .`
+3. `docker run -d -p 80:80 cinema`
